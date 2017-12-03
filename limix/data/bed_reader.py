@@ -126,7 +126,7 @@ class BedReader():
         self._geno = bed
 
     def _init_imputer(self):
-        self._imputer = Imputer(missing_values=3.,
+        self._imputer = Imputer(missing_values='NaN',
                                 strategy='mean',
                                 axis=0,
                                 copy=False)
