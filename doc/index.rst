@@ -15,6 +15,7 @@ Limix's documentation
    cmd
    qc
    qtl
+   model
    her
    io
    stats
